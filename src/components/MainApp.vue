@@ -2,6 +2,7 @@
 import mainDelivery from './mainDelivery.vue';
 import mainIndustry from './mainIndustry.vue';
 import mainPricing from './mainPricing.vue';
+import mainChoose from './mainChoose.vue';
 export default {
     data() {
         return {          
@@ -11,6 +12,7 @@ export default {
         mainDelivery,
         mainIndustry,
         mainPricing,
+        mainChoose,
     }
 }
 </script>
@@ -25,6 +27,9 @@ export default {
 
         <!-- pricing table -->
         <mainPricing />
+
+        <!-- main choose -->
+         <mainChoose />
     </main>
 </template>
 
