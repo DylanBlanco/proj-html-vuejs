@@ -1,0 +1,43 @@
+/*
+main industry
+*/
+.industry .container {
+    width: 80%;
+}
+
+.industry {
+    background-image: url(/public/img/bg-6.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 100px;
+}
+
+.industry .box {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.industry .box ul {
+    width: calc(100% / 2);
+}
+
+.industry .box ul .blue-text {
+    font-weight: 500;
+}
+
+.industry .box ul h2 {
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+.industry .box ul a {
+    text-decoration: none;
+    background-color: #098283;
+    color: white;
+    padding: 5px 10px;
+}
+
+.industry .box ul a:hover {
+    color: rgb(39, 100, 178);
+}
