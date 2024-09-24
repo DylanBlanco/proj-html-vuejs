@@ -1,0 +1,62 @@
+/* 
+    HeaderApp
+*/
+
+//contact section
+header .header-contacts {
+    width: 100%;
+}
+header ul {
+    display: flex;
+    gap: 15px;
+    padding: 10px 0;
+}
+
+header ul li a {
+    font-size: 0.9rem;
+    padding: 5px;
+}
+
+//jumbo section
+header .jumbo-header {
+    background-image: url(/public/img/bg-13.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 15px 0;
+}
+
+header .jumbo-header .logo img {
+    width: 100px;
+    filter: contrast(3.5);
+}
+
+header .jumbo-header .nav a {
+    background-color: #098283;
+}
+
+header .jumbo-header .intro div {
+    width: calc(100% / 3);
+    padding: 80px 0;
+}
+
+header .jumbo-header .intro ul {
+    flex-direction: column;
+    gap: 30px;
+}
+
+header .jumbo-header .intro ul h1 {
+    color: #21333E;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 3.2rem;
+}
+
+header .jumbo-header .intro ul p {
+    color: #098283;
+}
+
+header .jumbo-header .intro ul a {
+    background-color: #098283;
+    margin-right: 15px;
+    border-radius: 20px;
+}

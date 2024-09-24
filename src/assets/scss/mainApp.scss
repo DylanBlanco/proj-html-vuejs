@@ -1,0 +1,52 @@
+/* 
+Logistic Service
+*/ 
+.logistics-service {
+    padding: 80px 0;
+}
+
+.logistics-service .box {
+    width: calc((100% / 3) - 15px);
+    margin-bottom: 50px;
+}
+
+.logistics-service .box ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 10px;
+}
+
+.logistics-service .box li {
+    padding-right: 20px;
+}
+
+.logistics-service .box li i {
+    font-size: 2rem;
+    color: #098283;
+}
+
+.logistics-service .box h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.logistics-service .box h3 {
+    color: white;
+}
+
+.logistics-service .box p {
+    color: #098283;
+}
+
+.logistics-service .card {
+    align-items: center;
+}
+
+.logistics-service .card p {
+    color: #8b979b;
+}
+
+.logistics-service .shipping-fast {
+    width: calc(100% - (100% / 3));
+}

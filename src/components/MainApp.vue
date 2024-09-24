@@ -1,26 +1,27 @@
 <script>
+import mainDelivery from './mainDelivery.vue';
+import mainIndustry from './mainIndustry.vue';
 export default {
     data() {
-        return { 
+        return {          
         }
+    },
+    components: {
+        mainDelivery,
+        mainIndustry,
     }
 }
 </script>
 
 <template>
     <main>
-        <div>
-            <p>
-                eldiablo
-            </p>
-        </div>
+        <!-- main delivery -->
+        <mainDelivery />
+    
+        <!-- industry leaders -->
+        <mainIndustry />
     </main>
 </template>
 
-<style lang="scss" scoped>
-@use '../assets/scss/partials/variables' as *;
-
-p {
-    color: $textColor;
-}
+<style lang="scss">
 </style>
