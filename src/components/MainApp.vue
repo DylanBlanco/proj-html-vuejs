@@ -1,6 +1,7 @@
 <script>
 import mainDelivery from './mainDelivery.vue';
 import mainIndustry from './mainIndustry.vue';
+import mainPricing from './mainPricing.vue';
 export default {
     data() {
         return {          
@@ -9,6 +10,7 @@ export default {
     components: {
         mainDelivery,
         mainIndustry,
+        mainPricing,
     }
 }
 </script>
@@ -20,6 +22,9 @@ export default {
     
         <!-- industry leaders -->
         <mainIndustry />
+
+        <!-- pricing table -->
+        <mainPricing />
     </main>
 </template>
 
